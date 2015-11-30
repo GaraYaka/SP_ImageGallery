@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="810ef76a-c2fe-4096-84ed-1b5d1be12495" 
+        solutionId="810ef76a-c2fe-4096-84ed-1b5d1be12495" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="spImgGallery"
+        sharePointProductVersion="16.0">
+  <features>
+        <featureReference itemId="c4c380d3-5124-4117-9538-ddf34bf28912" />
+  </features>
+</package>

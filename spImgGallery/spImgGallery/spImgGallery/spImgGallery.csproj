@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1C05332D-83FA-4CF8-87CC-3EF341EA13CD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>spImgGallery</RootNamespace>
+    <AssemblyName>spImgGallery</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>16.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <MinimumVisualStudioVersion>12.0</MinimumVisualStudioVersion>
+    <MinimumOfficeToolsVersion>12.1</MinimumOfficeToolsVersion>
+    <IncludeAssemblyInPackage>False</IncludeAssemblyInPackage>
+    <ProjectMode>SharePointApp</ProjectMode>
+    <AppFeaturePartId>{cea77c40-f6f5-4a5b-ba83-d126ca560f4e}</AppFeaturePartId>
+    <WspPartId>{fca8e817-fb8d-406b-9f51-c68d4b7486d9}</WspPartId>
+    <WorkflowPartId>{79bc77a3-c5ae-4591-ac82-87cdeb7d08ab}</WorkflowPartId>
+    <CspkgPartId>{72b957c9-cf6f-4aa2-a12c-701b73594502}</CspkgPartId>
+    <SqlPackagePartId>{13286d2f-059a-404c-b753-ed3d71348bed}</SqlPackagePartId>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>1447796465_Image.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="1447796465_Image.ico" />
+    <Content Include="AlbumViewAssets\css\demo.css" />
+    <Content Include="AlbumViewAssets\css\noJS.css" />
+    <Content Include="AlbumViewAssets\css\style.css" />
+    <Content Include="AlbumViewAssets\Elements.xml" />
+    <Content Include="AlbumViewAssets\font\entypo-selected.svg" />
+    <Content Include="AlbumViewAssets\font\LICENSE.txt" />
+    <Content Include="AlbumViewAssets\font\README.txt" />
+    <Content Include="AlbumViewAssets\images\large\3.jpg" />
+    <Content Include="AlbumViewAssets\images\loader_dark.gif" />
+    <Content Include="AlbumViewAssets\images\loader_light.gif" />
+    <Content Include="AlbumViewAssets\images\medium\3.jpg" />
+    <Content Include="AlbumViewAssets\images\small\3.jpg" />
+    <Content Include="AlbumViewAssets\images\xlarge\3.jpg" />
+    <Content Include="AlbumViewAssets\images\xsmall\3.jpg" />
+    <Content Include="AlbumViewAssets\images\xxlarge\3.jpg" />
+    <Content Include="AlbumViewAssets\images\xxxlarge\3.jpg" />
+    <Content Include="AlbumViewAssets\js\gamma.js" />
+    <Content Include="AlbumViewAssets\js\jquery.history.js" />
+    <Content Include="AlbumViewAssets\js\jquery.masonry.min.js" />
+    <Content Include="AlbumViewAssets\js\jquery.min_1.8.2.js" />
+    <Content Include="AlbumViewAssets\js\jquerypp.custom.js" />
+    <Content Include="AlbumViewAssets\js\js-url.min.js" />
+    <Content Include="AlbumViewAssets\js\modernizr.custom.70736.js" />
+    <Content Include="Content\favicon.ico" />
+    <Content Include="Elements.xml" />
+    <Content Include="Images\Image-512.png">
+      <OpcRelationship>manifest-icon</OpcRelationship>
+    </Content>
+    <Content Include="Images\Image-64.png" />
+    <Content Include="TemplateAssets\css\prettyPhoto.css" />
+    <Content Include="TemplateAssets\css\styles.css" />
+    <Content Include="TemplateAssets\Elements.xml" />
+    <Content Include="TemplateAssets\images\big\pic1.jpg" />
+    <Content Include="TemplateAssets\images\big\pic10.jpg" />
+    <Content Include="TemplateAssets\images\big\pic11.jpg" />
+    <Content Include="TemplateAssets\images\big\pic12.jpg" />
+    <Content Include="TemplateAssets\images\big\pic2.jpg" />
+    <Content Include="TemplateAssets\images\big\pic3.jpg" />
+    <Content Include="TemplateAssets\images\big\pic4.jpg" />
+    <Content Include="TemplateAssets\images\big\pic5.jpg" />
+    <Content Include="TemplateAssets\images\big\pic6.jpg" />
+    <Content Include="TemplateAssets\images\big\pic7.jpg" />
+    <Content Include="TemplateAssets\images\big\pic8.jpg" />
+    <Content Include="TemplateAssets\images\big\pic9.jpg" />
+    <Content Include="TemplateAssets\images\bkg-pat.png" />
+    <Content Include="TemplateAssets\images\goto.png" />
+    <Content Include="TemplateAssets\images\mglass.png" />
+    <Content Include="TemplateAssets\images\prettyPhoto\dark_rounded\btnNext.png" />
+    <Content Include="TemplateAssets\images\prettyPhoto\dark_rounded\btnPrevious.png" />
+    <Content Include="TemplateAssets\images\prettyPhoto\dark_rounded\contentPattern.png" />
+    <Content Include="TemplateAssets\images\prettyPhoto\dark_rounded\default_thumbnail.gif" />
+    <Content Include="TemplateAssets\images\prettyPhoto\dark_rounded\loader.gif" />
+    <Content Include="TemplateAssets\images\prettyPhoto\dark_rounded\sprite.png" />
+    <Content Include="TemplateAssets\images\prettyPhoto\dark_square\btnNext.png" />
+    <Content Include="TemplateAssets\images\prettyPhoto\dark_square\btnPrevious.png" />
+    <Content Include="TemplateAssets\images\prettyPhoto\dark_square\contentPattern.png" />
+    <Content Include="TemplateAssets\images\prettyPhoto\dark_square\default_thumbnail.gif" />
+    <Content Include="TemplateAssets\images\prettyPhoto\dark_square\loader.gif" />
+    <Content Include="TemplateAssets\images\prettyPhoto\dark_square\sprite.png" />
+    <Content Include="TemplateAssets\images\prettyPhoto\facebook\btnNext.png" />
+    <Content Include="TemplateAssets\images\prettyPhoto\facebook\btnPrevious.png" />
+    <Content Include="TemplateAssets\images\prettyPhoto\facebook\contentPatternBottom.png" />
+    <Content Include="TemplateAssets\images\prettyPhoto\facebook\contentPatternLeft.png" />
+    <Content Include="TemplateAssets\images\prettyPhoto\facebook\contentPatternRight.png" />
+    <Content Include="TemplateAssets\images\prettyPhoto\facebook\contentPatternTop.png" />
+    <Content Include="TemplateAssets\images\prettyPhoto\facebook\default_thumbnail.gif" />
+    <Content Include="TemplateAssets\images\prettyPhoto\facebook\loader.gif" />
+    <Content Include="TemplateAssets\images\prettyPhoto\facebook\sprite.png" />
+    <Content Include="TemplateAssets\images\prettyPhoto\light_rounded\btnNext.png" />
+    <Content Include="TemplateAssets\images\prettyPhoto\light_rounded\btnPrevious.png" />
+    <Content Include="TemplateAssets\images\prettyPhoto\light_rounded\default_thumbnail.gif" />
+    <Content Include="TemplateAssets\images\prettyPhoto\light_rounded\loader.gif" />
+    <Content Include="TemplateAssets\images\prettyPhoto\light_rounded\sprite.png" />
+    <Content Include="TemplateAssets\images\prettyPhoto\light_square\btnNext.png" />
+    <Content Include="TemplateAssets\images\prettyPhoto\light_square\btnPrevious.png" />
+    <Content Include="TemplateAssets\images\prettyPhoto\light_square\default_thumbnail.gif" />
+    <Content Include="TemplateAssets\images\prettyPhoto\light_square\loader.gif" />
+    <Content Include="TemplateAssets\images\prettyPhoto\light_square\sprite.png" />
+    <Content Include="TemplateAssets\images\thumbs\p1.jpg" />
+    <Content Include="TemplateAssets\images\thumbs\p10.jpg" />
+    <Content Include="TemplateAssets\images\thumbs\p11.jpg" />
+    <Content Include="TemplateAssets\images\thumbs\p12.jpg" />
+    <Content Include="TemplateAssets\images\thumbs\p2.jpg" />
+    <Content Include="TemplateAssets\images\thumbs\p3.jpg" />
+    <Content Include="TemplateAssets\images\thumbs\p4.jpg" />
+    <Content Include="TemplateAssets\images\thumbs\p5.jpg" />
+    <Content Include="TemplateAssets\images\thumbs\p6.jpg" />
+    <Content Include="TemplateAssets\images\thumbs\p7.jpg" />
+    <Content Include="TemplateAssets\images\thumbs\p8.jpg" />
+    <Content Include="TemplateAssets\images\thumbs\p9.jpg" />
+    <Content Include="TemplateAssets\js\jquery.easing.js" />
+    <Content Include="TemplateAssets\js\jquery.min_1.6.4.js" />
+    <Content Include="TemplateAssets\js\jquery.prettyPhoto.js" />
+    <Content Include="TemplateAssets\js\jquery.quicksand.js" />
+    <Content Include="TemplateAssets\js\script.js" />
+    <None Include="AlbumViewAssets\css\.DS_Store" />
+    <None Include="AlbumViewAssets\font\entypo-selected.eot" />
+    <None Include="AlbumViewAssets\font\entypo-selected.ttf" />
+    <None Include="AlbumViewAssets\font\entypo-selected.woff" />
+    <None Include="AlbumViewAssets\images\.DS_Store" />
+    <None Include="AlbumViewAssets\images\large\.DS_Store" />
+    <None Include="AlbumViewAssets\images\medium\.DS_Store" />
+    <None Include="AlbumViewAssets\images\small\.DS_Store" />
+    <None Include="AlbumViewAssets\images\xlarge\.DS_Store" />
+    <None Include="AlbumViewAssets\images\xsmall\.DS_Store" />
+    <None Include="AlbumViewAssets\images\xxlarge\.DS_Store" />
+    <None Include="AlbumViewAssets\images\xxxlarge\.DS_Store" />
+    <None Include="AlbumViewAssets\js\.DS_Store" />
+    <None Include="AlbumViewAssets\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{049e4128-15bd-49dd-8546-27bded57f4c9}</SharePointProjectItemId>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Pages\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e62b6cd4-ac26-4e0c-8658-6ee7be2d0034}</SharePointProjectItemId>
+    </None>
+    <Content Include="Content\css\bootstrap.css" />
+    <Content Include="Content\css\style.css" />
+    <Content Include="Content\css\swipebox.css" />
+    <Content Include="Content\images\arw-1.png" />
+    <Content Include="Content\images\arw-btn.png" />
+    <Content Include="Content\images\banner.jpg" />
+    <Content Include="Content\images\client-1.png" />
+    <Content Include="Content\images\client-2.png" />
+    <Content Include="Content\images\client-3.png" />
+    <Content Include="Content\images\client-4.png" />
+    <Content Include="Content\images\client-5.png" />
+    <Content Include="Content\images\cmt-1.jpg" />
+    <Content Include="Content\images\contact.png" />
+    <Content Include="Content\images\d-arw.png" />
+    <Content Include="Content\images\des.png" />
+    <Content Include="Content\images\icons.svg" />
+    <Content Include="Content\images\info-2.jpg" />
+    <Content Include="Content\js\classie.js" />
+    <Content Include="Content\js\easing.js" />
+    <Content Include="Content\js\jquery-1.11.0.min.js" />
+    <Content Include="Content\js\jquery.mixitup.min.js" />
+    <Content Include="Content\js\jquery.swipebox.min.js" />
+    <Content Include="Content\js\move-top.js" />
+    <Content Include="Content\images\menu-1.png" />
+    <Content Include="Content\images\menu.png" />
+    <Content Include="Content\images\news-banner.jpg" />
+    <Content Include="Content\images\port-1.jpg" />
+    <Content Include="Content\images\port-2.jpg" />
+    <Content Include="Content\images\port-3.jpg" />
+    <Content Include="Content\images\port-4.jpg" />
+    <Content Include="Content\images\port-5.jpg" />
+    <Content Include="Content\images\port-6.jpg" />
+    <Content Include="Content\images\port-7.jpg" />
+    <Content Include="Content\images\remember-1.jpg" />
+    <Content Include="Content\images\road-1.jpg" />
+    <Content Include="Content\images\road.jpg" />
+    <Content Include="Content\images\service-1.jpg" />
+    <Content Include="Content\images\service-2.jpg" />
+    <Content Include="Content\images\service-3.jpg" />
+    <Content Include="Content\images\social.png" />
+    <Content Include="Content\images\up-arrow.png" />
+    <Content Include="Pages\ViewAlbum.aspx" />
+    <Content Include="Scripts\Display.js" />
+    <Content Include="Pages\Display.aspx" />
+    <Content Include="Pages\Elements.xml" />
+    <Content Include="Pages\Default.aspx" />
+    <None Include="SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{fac94b37-3911-406c-b12d-4a80fec66184}</SharePointProjectItemId>
+    </None>
+    <None Include="TemplateAssets\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{1a7fa514-dcf8-4296-8fc9-710a293f93ff}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\jquery-1.9.1.min.map" />
+    <None Include="Scripts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{13286d2f-059a-404c-b753-ed3d71348bed}</SharePointProjectItemId>
+    </None>
+    <Content Include="Scripts\Elements.xml" />
+    <Content Include="Scripts\App.js" />
+    <Content Include="Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="Scripts\jquery-1.9.1.js" />
+    <Content Include="Scripts\jquery-1.9.1.min.js" />
+    <Content Include="Scripts\ViewAlbum.js" />
+    <Content Include="Scripts\_references.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{887e0880-12cf-437f-b834-c7bd4c423ab2}</SharePointProjectItemId>
+    </None>
+    <Content Include="Content\Elements.xml" />
+    <Content Include="Content\App.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\AppIcon.png" />
+    <Content Include="Images\Elements.xml" />
+    <None Include="Images\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{0a00e80a-53b8-4477-9714-9d7f41572787}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Package\Package.package">
+      <PackageId>{810ef76a-c2fe-4096-84ed-1b5d1be12495}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="Features\Feature1\Feature1.feature">
+      <FeatureId>{c4c380d3-5124-4117-9538-ddf34bf28912}</FeatureId>
+    </None>
+    <None Include="Features\Feature1\Feature1.Template.xml">
+      <DependentUpon>Feature1.feature</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <AppManifestFile Include="AppManifest.xml">
+      <SubType>Designer</SubType>
+    </AppManifestFile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
+  <Files>
+    <ProjectItemFile Source="Elements.xml" Target="AlbumViewAssets\" Type="ElementManifest" />
+    <ProjectItemFile Source="css\.DS_Store" Target="AlbumViewAssets\css\" Type="ElementFile" />
+    <ProjectItemFile Source="css\demo.css" Target="AlbumViewAssets\css\" Type="ElementFile" />
+    <ProjectItemFile Source="css\noJS.css" Target="AlbumViewAssets\css\" Type="ElementFile" />
+    <ProjectItemFile Source="css\style.css" Target="AlbumViewAssets\css\" Type="ElementFile" />
+    <ProjectItemFile Source="font\entypo-selected.eot" Target="AlbumViewAssets\font\" Type="ElementFile" />
+    <ProjectItemFile Source="font\entypo-selected.svg" Target="AlbumViewAssets\font\" Type="ElementFile" />
+    <ProjectItemFile Source="font\entypo-selected.ttf" Target="AlbumViewAssets\font\" Type="ElementFile" />
+    <ProjectItemFile Source="font\entypo-selected.woff" Target="AlbumViewAssets\font\" Type="ElementFile" />
+    <ProjectItemFile Source="font\LICENSE.txt" Target="AlbumViewAssets\font\" Type="ElementFile" />
+    <ProjectItemFile Source="font\README.txt" Target="AlbumViewAssets\font\" Type="ElementFile" />
+    <ProjectItemFile Source="images\.DS_Store" Target="AlbumViewAssets\images\" Type="ElementFile" />
+    <ProjectItemFile Source="images\loader_dark.gif" Target="AlbumViewAssets\images\" Type="ElementFile" />
+    <ProjectItemFile Source="images\loader_light.gif" Target="AlbumViewAssets\images\" Type="ElementFile" />
+    <ProjectItemFile Source="images\large\.DS_Store" Target="AlbumViewAssets\images\large\" Type="ElementFile" />
+    <ProjectItemFile Source="images\large\3.jpg" Target="AlbumViewAssets\images\large\" Type="ElementFile" />
+    <ProjectItemFile Source="images\medium\.DS_Store" Target="AlbumViewAssets\images\medium\" Type="ElementFile" />
+    <ProjectItemFile Source="images\medium\3.jpg" Target="AlbumViewAssets\images\medium\" Type="ElementFile" />
+    <ProjectItemFile Source="images\small\.DS_Store" Target="AlbumViewAssets\images\small\" Type="ElementFile" />
+    <ProjectItemFile Source="images\small\3.jpg" Target="AlbumViewAssets\images\small\" Type="ElementFile" />
+    <ProjectItemFile Source="images\xlarge\.DS_Store" Target="AlbumViewAssets\images\xlarge\" Type="ElementFile" />
+    <ProjectItemFile Source="images\xlarge\3.jpg" Target="AlbumViewAssets\images\xlarge\" Type="ElementFile" />
+    <ProjectItemFile Source="images\xsmall\.DS_Store" Target="AlbumViewAssets\images\xsmall\" Type="ElementFile" />
+    <ProjectItemFile Source="images\xsmall\3.jpg" Target="AlbumViewAssets\images\xsmall\" Type="ElementFile" />
+    <ProjectItemFile Source="images\xxlarge\.DS_Store" Target="AlbumViewAssets\images\xxlarge\" Type="ElementFile" />
+    <ProjectItemFile Source="images\xxlarge\3.jpg" Target="AlbumViewAssets\images\xxlarge\" Type="ElementFile" />
+    <ProjectItemFile Source="images\xxxlarge\.DS_Store" Target="AlbumViewAssets\images\xxxlarge\" Type="ElementFile" />
+    <ProjectItemFile Source="images\xxxlarge\3.jpg" Target="AlbumViewAssets\images\xxxlarge\" Type="ElementFile" />
+    <ProjectItemFile Source="js\.DS_Store" Target="AlbumViewAssets\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\gamma.js" Target="AlbumViewAssets\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\jquery.history.js" Target="AlbumViewAssets\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\jquery.masonry.min.js" Target="AlbumViewAssets\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\jquerypp.custom.js" Target="AlbumViewAssets\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\js-url.min.js" Target="AlbumViewAssets\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\modernizr.custom.70736.js" Target="AlbumViewAssets\js\" Type="ElementFile" />
+    <ProjectItemFile Source="js\jquery.min_1.8.2.js" Target="AlbumViewAssets\js\" Type="ElementFile" />
+  </Files>
+</ProjectItem>

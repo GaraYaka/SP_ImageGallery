@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="AlbumViewAssets">
+    <File Path="AlbumViewAssets\css\.DS_Store" Url="AlbumViewAssets/css/.DS_Store" ReplaceContent="TRUE" />
+    <File Path="AlbumViewAssets\css\demo.css" Url="AlbumViewAssets/css/demo.css" ReplaceContent="TRUE" />
+    <File Path="AlbumViewAssets\css\noJS.css" Url="AlbumViewAssets/css/noJS.css" ReplaceContent="TRUE" />
+    <File Path="AlbumViewAssets\css\style.css" Url="AlbumViewAssets/css/style.css" ReplaceContent="TRUE" />
+    <File Path="AlbumViewAssets\font\entypo-selected.eot" Url="AlbumViewAssets/font/entypo-selected.eot" ReplaceContent="TRUE" />
+    <File Path="AlbumViewAssets\font\entypo-selected.svg" Url="AlbumViewAssets/font/entypo-selected.svg" ReplaceContent="TRUE" />
+    <File Path="AlbumViewAssets\font\entypo-selected.ttf" Url="AlbumViewAssets/font/entypo-selected.ttf" ReplaceContent="TRUE" />
+    <File Path="AlbumViewAssets\font\entypo-selected.woff" Url="AlbumViewAssets/font/entypo-selected.woff" ReplaceContent="TRUE" />
+    <File Path="AlbumViewAssets\font\LICENSE.txt" Url="AlbumViewAssets/font/LICENSE.txt" ReplaceContent="TRUE" />
+    <File Path="AlbumViewAssets\font\README.txt" Url="AlbumViewAssets/font/README.txt" ReplaceContent="TRUE" />
+    <File Path="AlbumViewAssets\images\.DS_Store" Url="AlbumViewAssets/images/.DS_Store" ReplaceContent="TRUE" />
+    <File Path="AlbumViewAssets\images\loader_dark.gif" Url="AlbumViewAssets/images/loader_dark.gif" ReplaceContent="TRUE" />
+    <File Path="AlbumViewAssets\images\loader_light.gif" Url="AlbumViewAssets/images/loader_light.gif" ReplaceContent="TRUE" />
+    <File Path="AlbumViewAssets\images\large\.DS_Store" Url="AlbumViewAssets/images/large/.DS_Store" ReplaceContent="TRUE" />
+    <File Path="AlbumViewAssets\images\large\3.jpg" Url="AlbumViewAssets/images/large/3.jpg" ReplaceContent="TRUE" />
+    <File Path="AlbumViewAssets\images\medium\.DS_Store" Url="AlbumViewAssets/images/medium/.DS_Store" ReplaceContent="TRUE" />
+    <File Path="AlbumViewAssets\images\medium\3.jpg" Url="AlbumViewAssets/images/medium/3.jpg" ReplaceContent="TRUE" />
+    <File Path="AlbumViewAssets\images\small\.DS_Store" Url="AlbumViewAssets/images/small/.DS_Store" ReplaceContent="TRUE" />
+    <File Path="AlbumViewAssets\images\small\3.jpg" Url="AlbumViewAssets/images/small/3.jpg" ReplaceContent="TRUE" />
+    <File Path="AlbumViewAssets\images\xlarge\.DS_Store" Url="AlbumViewAssets/images/xlarge/.DS_Store" ReplaceContent="TRUE" />
+    <File Path="AlbumViewAssets\images\xlarge\3.jpg" Url="AlbumViewAssets/images/xlarge/3.jpg" ReplaceContent="TRUE" />
+    <File Path="AlbumViewAssets\images\xsmall\.DS_Store" Url="AlbumViewAssets/images/xsmall/.DS_Store" ReplaceContent="TRUE" />
+    <File Path="AlbumViewAssets\images\xsmall\3.jpg" Url="AlbumViewAssets/images/xsmall/3.jpg" ReplaceContent="TRUE" />
+    <File Path="AlbumViewAssets\images\xxlarge\.DS_Store" Url="AlbumViewAssets/images/xxlarge/.DS_Store" ReplaceContent="TRUE" />
+    <File Path="AlbumViewAssets\images\xxlarge\3.jpg" Url="AlbumViewAssets/images/xxlarge/3.jpg" ReplaceContent="TRUE" />
+    <File Path="AlbumViewAssets\images\xxxlarge\.DS_Store" Url="AlbumViewAssets/images/xxxlarge/.DS_Store" ReplaceContent="TRUE" />
+    <File Path="AlbumViewAssets\images\xxxlarge\3.jpg" Url="AlbumViewAssets/images/xxxlarge/3.jpg" ReplaceContent="TRUE" />
+    <File Path="AlbumViewAssets\js\.DS_Store" Url="AlbumViewAssets/js/.DS_Store" ReplaceContent="TRUE" />
+    <File Path="AlbumViewAssets\js\gamma.js" Url="AlbumViewAssets/js/gamma.js" ReplaceContent="TRUE" />
+    <File Path="AlbumViewAssets\js\jquery.history.js" Url="AlbumViewAssets/js/jquery.history.js" ReplaceContent="TRUE" />
+    <File Path="AlbumViewAssets\js\jquery.masonry.min.js" Url="AlbumViewAssets/js/jquery.masonry.min.js" ReplaceContent="TRUE" />
+    <File Path="AlbumViewAssets\js\jquerypp.custom.js" Url="AlbumViewAssets/js/jquerypp.custom.js" ReplaceContent="TRUE" />
+    <File Path="AlbumViewAssets\js\js-url.min.js" Url="AlbumViewAssets/js/js-url.min.js" ReplaceContent="TRUE" />
+    <File Path="AlbumViewAssets\js\modernizr.custom.70736.js" Url="AlbumViewAssets/js/modernizr.custom.70736.js" ReplaceContent="TRUE" />
+    <File Path="AlbumViewAssets\js\jquery.min_1.8.2.js" Url="AlbumViewAssets/js/jquery.min_1.8.2.js" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Content">
+    <File Path="Content\App.css" Url="Content/App.css" ReplaceContent="TRUE" />
+    <File Path="Content\css\bootstrap.css" Url="Content/css/bootstrap.css" ReplaceContent="TRUE" />
+    <File Path="Content\css\style.css" Url="Content/css/style.css" ReplaceContent="TRUE" />
+    <File Path="Content\css\swipebox.css" Url="Content/css/swipebox.css" ReplaceContent="TRUE" />
+    <File Path="Content\images\arw-1.png" Url="Content/images/arw-1.png" ReplaceContent="TRUE" />
+    <File Path="Content\images\arw-btn.png" Url="Content/images/arw-btn.png" ReplaceContent="TRUE" />
+    <File Path="Content\images\banner.jpg" Url="Content/images/banner.jpg" ReplaceContent="TRUE" />
+    <File Path="Content\images\client-1.png" Url="Content/images/client-1.png" ReplaceContent="TRUE" />
+    <File Path="Content\images\client-2.png" Url="Content/images/client-2.png" ReplaceContent="TRUE" />
+    <File Path="Content\images\client-3.png" Url="Content/images/client-3.png" ReplaceContent="TRUE" />
+    <File Path="Content\images\client-4.png" Url="Content/images/client-4.png" ReplaceContent="TRUE" />
+    <File Path="Content\images\client-5.png" Url="Content/images/client-5.png" ReplaceContent="TRUE" />
+    <File Path="Content\images\cmt-1.jpg" Url="Content/images/cmt-1.jpg" ReplaceContent="TRUE" />
+    <File Path="Content\images\contact.png" Url="Content/images/contact.png" ReplaceContent="TRUE" />
+    <File Path="Content\images\d-arw.png" Url="Content/images/d-arw.png" ReplaceContent="TRUE" />
+    <File Path="Content\images\des.png" Url="Content/images/des.png" ReplaceContent="TRUE" />
+    <File Path="Content\images\icons.svg" Url="Content/images/icons.svg" ReplaceContent="TRUE" />
+    <File Path="Content\images\info-2.jpg" Url="Content/images/info-2.jpg" ReplaceContent="TRUE" />
+    <File Path="Content\images\menu-1.png" Url="Content/images/menu-1.png" ReplaceContent="TRUE" />
+    <File Path="Content\images\menu.png" Url="Content/images/menu.png" ReplaceContent="TRUE" />
+    <File Path="Content\images\news-banner.jpg" Url="Content/images/news-banner.jpg" ReplaceContent="TRUE" />
+    <File Path="Content\images\port-1.jpg" Url="Content/images/port-1.jpg" ReplaceContent="TRUE" />
+    <File Path="Content\images\port-2.jpg" Url="Content/images/port-2.jpg" ReplaceContent="TRUE" />
+    <File Path="Content\images\port-3.jpg" Url="Content/images/port-3.jpg" ReplaceContent="TRUE" />
+    <File Path="Content\images\port-4.jpg" Url="Content/images/port-4.jpg" ReplaceContent="TRUE" />
+    <File Path="Content\images\port-5.jpg" Url="Content/images/port-5.jpg" ReplaceContent="TRUE" />
+    <File Path="Content\images\port-6.jpg" Url="Content/images/port-6.jpg" ReplaceContent="TRUE" />
+    <File Path="Content\images\port-7.jpg" Url="Content/images/port-7.jpg" ReplaceContent="TRUE" />
+    <File Path="Content\images\remember-1.jpg" Url="Content/images/remember-1.jpg" ReplaceContent="TRUE" />
+    <File Path="Content\images\road-1.jpg" Url="Content/images/road-1.jpg" ReplaceContent="TRUE" />
+    <File Path="Content\images\road.jpg" Url="Content/images/road.jpg" ReplaceContent="TRUE" />
+    <File Path="Content\images\service-1.jpg" Url="Content/images/service-1.jpg" ReplaceContent="TRUE" />
+    <File Path="Content\images\service-2.jpg" Url="Content/images/service-2.jpg" ReplaceContent="TRUE" />
+    <File Path="Content\images\service-3.jpg" Url="Content/images/service-3.jpg" ReplaceContent="TRUE" />
+    <File Path="Content\images\social.png" Url="Content/images/social.png" ReplaceContent="TRUE" />
+    <File Path="Content\images\up-arrow.png" Url="Content/images/up-arrow.png" ReplaceContent="TRUE" />
+    <File Path="Content\js\classie.js" Url="Content/js/classie.js" ReplaceContent="TRUE" />
+    <File Path="Content\js\easing.js" Url="Content/js/easing.js" ReplaceContent="TRUE" />
+    <File Path="Content\js\jquery-1.11.0.min.js" Url="Content/js/jquery-1.11.0.min.js" ReplaceContent="TRUE" />
+    <File Path="Content\js\jquery.mixitup.min.js" Url="Content/js/jquery.mixitup.min.js" ReplaceContent="TRUE" />
+    <File Path="Content\js\jquery.swipebox.min.js" Url="Content/js/jquery.swipebox.min.js" ReplaceContent="TRUE" />
+    <File Path="Content\js\move-top.js" Url="Content/js/move-top.js" ReplaceContent="TRUE" />
+    <File Path="Content\favicon.ico" Url="Content/favicon.ico" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

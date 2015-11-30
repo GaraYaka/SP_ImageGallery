@@ -1,0 +1,3 @@
+D:\Midas\SharePoint\spImgGallery\spImgGallery\spImgGallery\bin\Debug\spImgGallery.pdb
+D:\Midas\SharePoint\spImgGallery\spImgGallery\spImgGallery\obj\Debug\spImgGallery.dll
+D:\Midas\SharePoint\spImgGallery\spImgGallery\spImgGallery\obj\Debug\spImgGallery.pdb
