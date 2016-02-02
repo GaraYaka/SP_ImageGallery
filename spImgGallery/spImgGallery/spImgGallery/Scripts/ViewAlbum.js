@@ -58,25 +58,6 @@ var albumList, albumName, jobListing, albumCover;
 var albumFinal, albumTemp;
 
 
-var GammaSettings = {
-    // order is important!
-    viewport: [{
-        width: 1200,
-        columns: 5
-    }, {
-        width: 900,
-        columns: 4
-    }, {
-        width: 500,
-        columns: 3
-    }, {
-        width: 320,
-        columns: 2
-    }, {
-        width: 0,
-        columns: 2
-    }]
-};
 
 function fncallback() {
 }
@@ -87,8 +68,7 @@ function SuccessMe() {
     try {
 
         
-        $("#spanAlbumName").html(albumNameFromQueryString); 
-        $("#spanAlbumDesc").html(decodeURIComponent(albumDescFromQueryString));
+        //$("#AlbumTitle").html("&emsp;<small>" + albumDescFromQueryString + "</small>");
 
 
         var newsEnumerator = albumList.getEnumerator();
@@ -110,29 +90,22 @@ function SuccessMe() {
                 imgDesc = "-";
 
             }
-
-            //albumTemp += " <div class='box'>";
-            //albumTemp += " <div class='boxInner'>";
-            //albumTemp += " <img src='" + imgURL + "'/>";
-            //albumTemp += " <div class='titleBox'>" + imgDesc + "</div>";
-            //albumTemp += " </div>";
-            //albumTemp += " </div>";
-
-            albumTemp += " <li>";
-            albumTemp += "  <div data-alt='img03' data-description='<h3>" + imgDesc + "</h3>' data-max-width='1800' data-max-height='1350'>";
-            albumTemp += "         <div data-src='" + imgURL + "' data-min-width='1300'></div>";
-            albumTemp += "        <div data-src='" + imgURL + "' data-min-width='1000'></div>";
-            albumTemp += "        <div data-src='" + imgURL + "' data-min-width='700'></div>";
-            albumTemp += "       <div data-src='" + imgURL + "' data-min-width='300'></div>";
-            albumTemp += "       <div data-src='" + imgURL + "' data-min-width='200'></div>";
-            albumTemp += "  <div data-src='" + imgURL + "' data-min-width='140'></div>";
-            albumTemp += "   <div data-src='" + imgURL + "'></div>";
-            albumTemp += "  <noscript>";
-            albumTemp += "      <img src='" + imgURL + "' alt='img03'/>";
-            albumTemp += "  </noscript>";
-            albumTemp += " </div>";
-            albumTemp += " </li>";
-
+            
+            albumTemp += '<div class="cbp-item">';
+            albumTemp += '    <a href="' + imgURL + '" class="cbp-caption cbp-lightbox" data-title="' + imgDesc + '">';
+            albumTemp += '        <div class="cbp-caption-defaultWrap">';
+            albumTemp += '            <img src="' + imgURL + '" alt="">';
+            albumTemp += '        </div>';
+            albumTemp += '        <div class="cbp-caption-activeWrap">';
+            albumTemp += '            <div class="cbp-l-caption-alignCenter">';
+            albumTemp += '                <div class="cbp-l-caption-body">';
+            albumTemp += '                    <div class="cbp-l-caption-title"></div>';
+            albumTemp += '                    <div class="cbp-l-caption-desc">' + imgDesc + '</div>';
+            albumTemp += '                </div>';
+            albumTemp += '            </div>';
+            albumTemp += '        </div>';
+            albumTemp += '    </a>';
+            albumTemp += '</div> ';
 
             albumFinal += albumTemp;
 
@@ -143,8 +116,47 @@ function SuccessMe() {
 
         var ccc = "";
 
-        $("#albumRender").html(albumFinal);
-        Gamma.init(GammaSettings, fncallback);
+        $("#js-grid-mosaic").html(albumFinal);
+
+
+        $('#js-grid-mosaic').cubeportfolio({
+            filters: '#js-filters-mosaic',
+            loadMore: '#js-loadMore-mosaic',
+            loadMoreAction: 'click',
+            layoutMode: 'mosaic',
+            sortToPreventGaps: true,
+            mediaQueries: [{
+                width: 1500,
+                cols: 3
+            }, {
+                width: 1100,
+                cols: 3
+            }, {
+                width: 800,
+                cols: 3
+            }, {
+                width: 480,
+                cols: 2
+            }, {
+                width: 320,
+                cols: 1
+            }],
+            defaultFilter: '*',
+            animationType: 'quicksand',
+            gapHorizontal: 0,
+            gapVertical: 0,
+            gridAdjustment: 'responsive',
+            caption: 'zoom',
+            displayType: 'sequentially',
+            displayTypeSpeed: 100,
+
+            // lightbox
+            lightboxDelegate: '.cbp-lightbox',
+            lightboxGallery: true,
+            lightboxTitleSrc: 'data-title',
+            lightboxCounter: '<div class="cbp-popup-lightbox-counter">{{current}} of {{total}}</div>',
+        });
+
 
     } catch (e) {
         onFail();

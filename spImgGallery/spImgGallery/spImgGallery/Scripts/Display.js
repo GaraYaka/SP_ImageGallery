@@ -83,7 +83,7 @@ function SuccessMe() {
             albumTemp += "  </a>";
             albumTemp += "</span>";
             albumTemp += "<div class='home-portfolio-text'>";
-            albumTemp += "   <h2 class='post-title-portfolio'><a href='ViewAlbum.aspx?AlbumName=" + albumName + "&SPAppWebUrl=" + appweburl + "&SPHostUrl=" + hostweburl + "&AlbumDesc=" + albumDesc + "' rel='bookmark'>" + albumName + "</a></h2>";
+            albumTemp += "   <h2 class='post-title-portfolio'><a href='ViewAlbum.aspx?AlbumName=" + albumName + "&SPAppWebUrl=" + appweburl + "&SPHostUrl=" + hostweburl + "&AlbumDesc=" + albumDesc + "' rel='bookmark'>" + albumDesc + "</a></h2>";
             albumTemp += "   <p class='post-subtitle-portfolio'>" + albumDesc + "</p>";
             albumTemp += "</div>";
             albumTemp += "</div>";

@@ -14,14 +14,14 @@
     <script type="text/javascript" src="../Scripts/App.js"></script>
     <script type="text/javascript" src="../Scripts/ViewAlbum.js"></script>
 
-    <%-- hide the top nav bar css --%>
+    <!-- hide the top nav bar css -->
     <style type="text/css">
         #s4-titlerow {
             display: none !important;
         }
     </style>
 
-    <%-- favicon script --%>
+    <!-- favicon script -->
     <script type="text/javascript">
         $(document).ready(function () {
             var link = document.createElement('link');
@@ -41,81 +41,103 @@
         <link rel="stylesheet" type="text/css" href="../AlbumViewAssets/css/noJS.css" />
     </noscript>
     <!--[if lte IE 7]><style>.main{display:none;} .support-note .note-ie{display:block;}</style><![endif]-->
+
+    <meta charset="utf-8" />
+    <!-- BEGIN GLOBAL MANDATORY STYLES -->
+    <!--<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css" />-->
+    <!--<link href="../assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />-->
+    <!--<link href="../assets/global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css" />-->
+    <link href="../assets/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="../assets/global/plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css" />
+    <link href="../assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css" rel="stylesheet" type="text/css" />
+    <!-- END GLOBAL MANDATORY STYLES -->
+    <!-- BEGIN PAGE LEVEL PLUGINS -->
+    <link href="../assets/global/plugins/cubeportfolio/css/cubeportfolio.css" rel="stylesheet" type="text/css" />
+    <!-- END PAGE LEVEL PLUGINS -->
+    <!-- BEGIN THEME GLOBAL STYLES -->
+    <link href="../assets/global/css/components-rounded.min.css" rel="stylesheet" id="style_components" type="text/css" />
+    <link href="../assets/global/css/plugins.min.css" rel="stylesheet" type="text/css" />
+    <!-- END THEME GLOBAL STYLES -->
+    <!-- BEGIN PAGE LEVEL STYLES -->
+    <link href="../assets/pages/css/portfolio.min.css" rel="stylesheet" type="text/css" />
+    <!-- END PAGE LEVEL STYLES -->
+    <!-- BEGIN THEME LAYOUT STYLES -->
+    <link href="../assets/layouts/layout/css/layout.min.css" rel="stylesheet" type="text/css" />
+    <link href="../assets/layouts/layout/css/themes/darkblue.min.css" rel="stylesheet" type="text/css" id="style_color" />
+    <link href="../assets/layouts/layout/css/custom.min.css" rel="stylesheet" type="text/css" />
+    <!-- END THEME LAYOUT STYLES -->
+
 </asp:Content>
 
 <asp:Content ContentPlaceHolderID="PlaceHolderMain" runat="server">
     <WebPartPages:WebPartZone runat="server" FrameType="TitleBarOnly" ID="full" Title="loc:full" />
 
     <body>
-        <div class="container">
+        <!-- Codrops top bar -->
+        <div class="codrops-top clearfix">
+            <a href="../">
+                <strong>&laquo; Back </strong>
+            </a>
+        </div>
+        <!--/ Codrops top bar -->
+        <!-- BEGIN HEADER & CONTENT DIVIDER -->
+        <div class="clearfix"></div>
+        <!-- END HEADER & CONTENT DIVIDER -->
+        <!-- BEGIN CONTAINER -->
+        <!--<div class="page-container">
+            <!--BEGIN CONTENT-->
+        <!-- <div class="page-content-wrapper">
+                <!--BEGIN CONTENT BODY-->
 
-            <!-- Codrops top bar -->
-            <div class="codrops-top clearfix">
-                <a href="../">
-                    <strong>&laquo; Back </strong>
-                </a>
-            </div>
-            <!--/ Codrops top bar -->
-
-            <div class="main">
-                <header class="clearfix">
-
-                    <h1><span id="spanAlbumName"></span><span id="spanAlbumDesc"></span></h1>
-                    <div class="support-note">
-                        <span class="note-ie">Sorry, only modern browsers.</span>
-                    </div>
-
-                </header>
-
-                <div class="gamma-container gamma-loading" id="gamma-container">
-                    <ul class="gamma-gallery" id="albumRender">
-                        <img src="../AlbumViewAssets/images/loader_light.gif" />
-                    </ul>
-                    <div class="gamma-overlay"></div>
+        <div class="page-content">
+            <!-- BEGIN PAGE TITLE-->
+            <h3 class="page-title" id="AlbumTitle"></h3>
+            <!-- END PAGE TITLE-->
+            <!-- END PAGE HEADER-->
+            <div class="portfolio-content portfolio-2">
+                <div id="js-grid-mosaic">
                 </div>
             </div>
-            <!--/main-->
         </div>
-        <script src="../AlbumViewAssets/js/jquery.min_1.8.2.js"></script>
-        <script src="../AlbumViewAssets/js/jquery.masonry.min.js"></script>
-        <script src="../AlbumViewAssets/js/jquery.history.js"></script>
-        <script src="../AlbumViewAssets/js/js-url.min.js"></script>
-        <script src="../AlbumViewAssets/js/jquerypp.custom.js"></script>
-        <script src="../AlbumViewAssets/js/gamma.js"></script>
-        <script type="text/javascript">
+        <!-- END CONTENT BODY -->
+        <!--</div>
+            <!-- END CONTENT -->
+        <!-- BEGIN QUICK SIDEBAR -->
+        <!-- END QUICK SIDEBAR -->
+        <!-- </div>
 
-            $(function () {
+        <!-- END CONTAINER -->
+        <!-- BEGIN FOOTER -->
+        <!-- END FOOTER -->
+        <!--[if lt IE 9]>
+<script src="../assets/global/plugins/respond.min.js"></script>
+<script src="../assets/global/plugins/excanvas.min.js"></script> 
+<![endif]-->
+        <!-- BEGIN CORE PLUGINS -->
+        <script src="../assets/global/plugins/jquery.min.js" type="text/javascript"></script>
+        <!--<script src="../assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>-->
+        <!--<script src="../assets/global/plugins/js.cookie.min.js" type="text/javascript"></script>-->
+        <!--<script src="../assets/global/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js" type="text/javascript"></script>-->
+        <!--<script src="../assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>-->
+        <script src="../assets/global/plugins/jquery.blockui.min.js" type="text/javascript"></script>
+        <!--<script src="../assets/global/plugins/uniform/jquery.uniform.min.js" type="text/javascript"></script>-->
+        <!--<script src="../assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js" type="text/javascript"></script>-->
+        <!-- END CORE PLUGINS -->
+        <!-- BEGIN PAGE LEVEL PLUGINS -->
+        <script src="../assets/global/plugins/cubeportfolio/js/jquery.cubeportfolio.min.js" type="text/javascript"></script>
+        <!-- END PAGE LEVEL PLUGINS -->
+        <!-- BEGIN THEME GLOBAL SCRIPTS -->
+        <!--<script src="../assets/global/scripts/app.min.js" type="text/javascript"></script>-->
+        <!-- END THEME GLOBAL SCRIPTS -->
+        <!-- BEGIN PAGE LEVEL SCRIPTS -->
+        <!--<script src="../assets/pages/scripts/portfolio-2.min.js" type="text/javascript"></script>-->
+        <!-- END PAGE LEVEL SCRIPTS -->
+        <!-- BEGIN THEME LAYOUT SCRIPTS -->
+        <!--<script src="../assets/layouts/layout/scripts/layout.min.js" type="text/javascript"></script>-->
+        <!--<script src="../assets/layouts/layout/scripts/demo.min.js" type="text/javascript"></script>-->
+        <!--<script src="../assets/layouts/global/scripts/quick-sidebar.min.js" type="text/javascript"></script>-->
+        <!-- END THEME LAYOUT SCRIPTS -->
 
-                var GammaSettings = {
-                    // order is important!
-                    viewport: [{
-                        width: 1200,
-                        columns: 5
-                    }, {
-                        width: 900,
-                        columns: 4
-                    }, {
-                        width: 500,
-                        columns: 3
-                    }, {
-                        width: 320,
-                        columns: 2
-                    }, {
-                        width: 0,
-                        columns: 2
-                    }]
-                };
 
-                Gamma.init(GammaSettings, fncallback);
-
-
-                // Example how to add more items (just a dummy):
-
-                function fncallback() {
-                }
-
-            });
-
-        </script>
     </body>
 </asp:Content>
